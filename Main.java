@@ -9,6 +9,6 @@ class Main {
     scan.next();
     System.out.println("For 10 dollars you can get Rocket League");
     scan.next();
-    System.out.println("Your Welcome");
+    System.out.println("Your welcome");
   }
 }
