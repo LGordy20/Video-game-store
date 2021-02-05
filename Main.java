@@ -11,13 +11,20 @@ class Main {
     System.out.println("For 10 dollars you can get Rocket League");
     scan.next();
     System.out.println("Your welcome");
-
     
-    static String greeting(String name);
+    
+    static String greeting(String name)
     {
-      String hello = "Hello again. What brings you back";
+      String hello = "Hello again. What brings you back " ;
       return hello;
     }
-  
+    
+
+    static int money(int moneyPaid , int moneyBack)
+    {
+     int money = moneyPaid - moneyBack;
+     return money;
+    }
+
   }
-}
+} 
